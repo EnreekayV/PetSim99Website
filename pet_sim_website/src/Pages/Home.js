@@ -41,7 +41,7 @@ const PetTable = () => {
                 <tbody>
                     {items.map((item, index) => (
                         <tr key={index}>
-                            <td>{item.category}</td>
+                            <td>{item.pet}</td>
                             <td>{item.id}</td>
                             <td>{item.value.toLocaleString()}</td>
                             <td>{item.isShiny ? 'Yes' : 'No'}</td>
